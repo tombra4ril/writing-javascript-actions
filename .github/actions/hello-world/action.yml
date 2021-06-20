@@ -1,0 +1,19 @@
+name: My first custom action
+description: Greets with Github actions
+
+inputs:
+  first-greeting:
+    description: Who would you like to greet first
+    required: true
+    default: First bot
+  second-greeting:
+    description: Second person to greet
+    required: true
+    default: Second bot
+  third-greeting:
+    description: Third person to greet
+    required: false
+
+runs:
+  using: node12
+  main: main.js
