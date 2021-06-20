@@ -1,0 +1,6 @@
+name: My first custom action
+description: Greets with Github actions
+
+runs:
+  using: node12
+  main: main.js
